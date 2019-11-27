@@ -14,9 +14,7 @@ w = 10
 stride = 10
 prefix = 'datafull'
 
-# check eye blinked (1) or not (0) during the time-window of period w
-# definition of blink: transition of 0 to 1 only
-# (not vice versa) during window
+
 
 df = pd.read_csv(prefix+'clean.csv')
 
