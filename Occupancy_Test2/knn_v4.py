@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import math
 from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
 
 # Value of k
 k = 50
@@ -106,3 +107,4 @@ print(y_true)
 target_names =['class 0', 'class 1']
 print(classification_report(y_true, y_pred, labels=[0,1],
                             target_names=target_names))
+print(confusion_matrix(y_true, y_pred))
