@@ -1,8 +1,7 @@
-# room-occupancy-topology
-Code and data sets for Topological Machine Learning for Multivariate Time Series
+Code and data sets for "Topological Machine Learning for Multivariate Time Series"
 (https://arxiv.org/abs/1911.12082)
 
-# Folder structure:
+## Folder structure:
 
 Occupancy_Test1: Contains data set and codes for Test 1 (predicting future room occupancy)
 
